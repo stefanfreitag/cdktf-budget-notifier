@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`minimal configuration 1`] = `
+"{
+  \\"//\\": {
+    \\"metadata\\": {
+      \\"version\\": \\"stubbed\\",
+      \\"stackName\\": \\"test\\"
+    }
+  },
+  \\"resource\\": {
+    \\"aws_budgets_budget\\": {
+      \\"test_team1_Test_947350B7\\": {
+        \\"budget_type\\": \\"COST\\",
+        \\"cost_filters\\": {
+          \\"tag_key_value\\": []
+        },
+        \\"limit_amount\\": \\"10\\",
+        \\"limit_unit\\": \\"USD\\",
+        \\"time_period_start\\": \\"2020-07-01_00:00\\",
+        \\"time_unit\\": \\"MONTHLY\\",
+        \\"notification\\": [
+          {
+            \\"comparison_operator\\": \\"GREATER_THAN\\",
+            \\"threshold\\": 10,
+            \\"threshold_type\\": \\"PERCENTAGE\\",
+            \\"notification_type\\": \\"ACTUAL\\",
+            \\"subscriber_email_addresses\\": [
+              \\"stefan@stefreitag.de\\"
+            ]
+          }
+        ],
+        \\"//\\": {
+          \\"metadata\\": {
+            \\"path\\": \\"test/team_1/Test\\",
+            \\"uniqueId\\": \\"test_team1_Test_947350B7\\"
+          }
+        }
+      }
+    }
+  }
+}"
+`;
