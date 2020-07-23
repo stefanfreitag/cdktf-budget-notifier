@@ -11,7 +11,8 @@
     "synth": "cdktf synth",
     "compile": "tsc --pretty",
     "watch": "tsc -w",
-    "test": "echo ok",
+    "plan": "cd ./cdktf.out && terraform init && terraform plan",
+    "test": "jest",
     "upgrade": "npm i cdktf@latest cdktf-cli@latest",
     "upgrade:next": "npm i cdktf@next cdktf-cli@next"
   },
@@ -23,8 +24,11 @@
     "constructs": "3.0.4"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.5",
     "@types/node": "14.0.23",
     "cdktf-cli": "0.0.12",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.3",
     "typescript": "3.9.7"
   }
 }

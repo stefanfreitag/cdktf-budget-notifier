@@ -24,3 +24,4 @@ Summary: 1 created, 0 updated, 0 destroyed.
 ## Links
 
 - https://github.com/hashicorp/terraform-cdk
+- [TagKeyValue Cost filter issue](https://github.com/terraform-providers/terraform-provider-aws/issues/5890)
