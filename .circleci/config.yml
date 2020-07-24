@@ -10,6 +10,8 @@ jobs:
       - node/with-cache:
           steps:
             - run: npm install
+            - run: npm install --save-dev cdktf-cli
+            - run: cdktf get
             - run: npm test
 workflows:
     build-and-test:
