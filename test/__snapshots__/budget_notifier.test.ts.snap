@@ -13,7 +13,7 @@ exports[`minimal configuration 1`] = `
       \\"test_team1_Test_947350B7\\": {
         \\"budget_type\\": \\"COST\\",
         \\"cost_filters\\": {
-          \\"tag_key_value\\": []
+          \\"tag_key_value\\": \\"helloWorld\\"
         },
         \\"limit_amount\\": \\"10\\",
         \\"limit_unit\\": \\"USD\\",
