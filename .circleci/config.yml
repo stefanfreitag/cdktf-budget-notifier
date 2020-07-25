@@ -7,10 +7,19 @@ jobs:
       name: node/default
     steps:
       - checkout
+      - run:
+          name: Download Terraform
+          command: curl -o /tmp/terraform.zip https://releases.hashicorp.com/terraform/0.12.29/terraform_0.12.29_linux_amd64.zip
+      - run:
+          name: Install Terraform
+          command: sudo unzip /tmp/terraform.zip -d /usr/bin/
       - node/with-cache:
           steps:
+            - run: sudo npm install -g cdktf-cli
             - run: npm install
+            - run: cdktf get
             - run: npm test
+
 workflows:
     build-and-test:
       jobs:
