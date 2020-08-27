@@ -6,6 +6,11 @@
     {
       "packageNames": [ "cdktf-cli", "cdktf"],
       "extends": ["schedule:monthly"]
+    },
+    {
+      "packageNames": ["@types/node", "@types/jest","ts-jest"],
+      "enabled": false
     }
+
   ]
 }
