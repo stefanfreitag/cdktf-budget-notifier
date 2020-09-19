@@ -29,6 +29,6 @@
     "cdktf-cli": "0.0.17",
     "jest": "26.4.2",
     "ts-jest": "26.2.0",
-    "typescript": "4.0.2"
+    "typescript": "4.0.3"
   }
 }
