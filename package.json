@@ -1,9 +1,13 @@
 {
   "name": "@stefanfreitag/cdktf-budget_notifier",
+  "author": {
+    "name": "Stefan Freitag",
+    "email": "stefan@stefreitag.de"
+  },
   "version": "0.1.0",
   "main": "main.js",
   "types": "main.ts",
-  "license": "MPL-2.0",
+  "license": "Apache-2.0",
   "private": true,
   "scripts": {
     "get": "cdktf get",
