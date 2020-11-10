@@ -10,7 +10,7 @@ exports[`minimal configuration 1`] = `
   },
   \\"resource\\": {
     \\"aws_budgets_budget\\": {
-      \\"test_team1_Test_947350B7\\": {
+      \\"test_team1_budget_F4F5F854\\": {
         \\"budget_type\\": \\"COST\\",
         \\"cost_filters\\": {
           \\"tag_key_value\\": \\"helloWorld\\"
@@ -32,8 +32,8 @@ exports[`minimal configuration 1`] = `
         ],
         \\"//\\": {
           \\"metadata\\": {
-            \\"path\\": \\"test/team_1/Test\\",
-            \\"uniqueId\\": \\"test_team1_Test_947350B7\\"
+            \\"path\\": \\"test/team_1/budget\\",
+            \\"uniqueId\\": \\"test_team1_budget_F4F5F854\\"
           }
         }
       }
