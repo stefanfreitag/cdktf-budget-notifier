@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "cdktf": "0.0.18",
-    "constructs": "3.2.53"
+    "constructs": "3.2.62"
   },
   "devDependencies": {
     "@types/jest": "26.0.15",
