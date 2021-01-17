@@ -4,7 +4,7 @@
   ],
   "packageRules": [
     {
-      "packageNames": [ "cdktf-cli", "cdktf"],
+      "packageNames": [ "cdktf-cli", "cdktf", "constructs"],
       "extends": ["schedule:monthly"]
     },
     {
