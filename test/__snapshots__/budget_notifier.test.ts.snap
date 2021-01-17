@@ -21,13 +21,13 @@ exports[`minimal configuration 1`] = `
         \\"time_unit\\": \\"MONTHLY\\",
         \\"notification\\": [
           {
-            \\"comparisonOperator\\": \\"GREATER_THAN\\",
-            \\"threshold\\": 10,
-            \\"thresholdType\\": \\"PERCENTAGE\\",
-            \\"notificationType\\": \\"ACTUAL\\",
-            \\"subscriberEmailAddresses\\": [
+            \\"comparison_operator\\": \\"GREATER_THAN\\",
+            \\"notification_type\\": \\"ACTUAL\\",
+            \\"subscriber_email_addresses\\": [
               \\"stefan@stefreitag.de\\"
-            ]
+            ],
+            \\"threshold\\": 10,
+            \\"threshold_type\\": \\"PERCENTAGE\\"
           }
         ],
         \\"//\\": {
