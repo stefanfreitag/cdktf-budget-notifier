@@ -13,7 +13,7 @@ exports[`minimal configuration 1`] = `
       \\"team_1_Test_105CBE26\\": {
         \\"budget_type\\": \\"COST\\",
         \\"cost_filters\\": {
-          \\"tag_key_value\\": \\"helloWorld\\"
+          \\"TagKeyValue\\": \\"helloWorld\\"
         },
         \\"limit_amount\\": \\"10\\",
         \\"limit_unit\\": \\"USD\\",
@@ -21,11 +21,11 @@ exports[`minimal configuration 1`] = `
         \\"time_unit\\": \\"MONTHLY\\",
         \\"notification\\": [
           {
-            \\"comparison_operator\\": \\"GREATER_THAN\\",
+            \\"comparisonOperator\\": \\"GREATER_THAN\\",
             \\"threshold\\": 10,
-            \\"threshold_type\\": \\"PERCENTAGE\\",
-            \\"notification_type\\": \\"ACTUAL\\",
-            \\"subscriber_email_addresses\\": [
+            \\"thresholdType\\": \\"PERCENTAGE\\",
+            \\"notificationType\\": \\"ACTUAL\\",
+            \\"subscriberEmailAddresses\\": [
               \\"stefan@stefreitag.de\\"
             ]
           }
